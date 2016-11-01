@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron - React - Redux</title>
+  </head>
+  <body>
+		<div id="main"></div>
+  </body>
+
+  <script>
+		var path = require('path');
+    require(path.resolve('./process-renderer/renderer.js'));
+  </script>
+	<script src="./bundle.js"></script>
+</html>
