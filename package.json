@@ -71,7 +71,8 @@
     "react-dom": "^15.3.1",
     "react-redux": "^4.4.5",
     "react-router": "^2.7.0",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "tesseract.js": "^1.0.10"
   },
   "eslintConfig": {
     "extends": "./config/eslint.js"
